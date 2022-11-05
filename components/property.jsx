@@ -28,7 +28,7 @@ const Property = ({property: {coverPhoto, price, rentFrequency, rooms, title, ba
              {rooms} <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft <BsGridFill />
            </Flex>
            <Text fontSize="lg">
-              {title.lenght > 30 ? `${title.substring(0, 30)}...` : title}
+              {title}
            </Text>
         </Box>
       </Flex>
